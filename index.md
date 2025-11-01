@@ -3,7 +3,6 @@ title: Home
 layout: home
 permalink: /
 ---
-# Test Headline
+# Welcome to KrugSec
 
-Lorem Ipsum
----
+Cybersecurity and not so cybersecurity related topics.

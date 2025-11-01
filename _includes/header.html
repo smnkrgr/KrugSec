@@ -1,6 +1,7 @@
 {%- assign default_paths = site.html_pages | map: 'path' -%}
 {%- assign page_paths = site.header_pages | default: default_paths -%}
 <header>
+  <a href="{{ '/' | relative_url }}" class="ascii-logo-link">
   <pre class="ascii-logo" >
   ,                                     
  /|   /                     ()          

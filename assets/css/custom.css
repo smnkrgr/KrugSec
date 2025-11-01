@@ -1,4 +1,36 @@
 .ascii-logo {
   font-size: 1.2em !important;
   line-height: 1.1 !important;
+  overflow: hidden;
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-width: 100%;   /* prevent horizontal overflow */
+  box-sizing: border-box;
+  color: #F0A0A0;  
 }
+
+.ascii-logo-link {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+.ascii-logo-link:hover {
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.footer-left a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
