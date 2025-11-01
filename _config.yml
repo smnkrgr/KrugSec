@@ -1,23 +1,30 @@
 title: Test Blog
-email: your-email@domain.com
-description: >-
-  Test Description
-baseurl: "" # Leave empty for username.github.io
-url: "https://username.github.io" # Replace with your actual URL
+description: Your blog description
+
+baseurl: ""
+url: "https://username.github.io"
+
+# Theme settings
+theme: jekyll-theme-console
+
+# Console theme header pages (these will show as links)
+header_pages:
+  - index.md
+  - about.md
+
+# Style (dark or light)
+style: dark
+
+# Footer text
+footer: 'Follow me on <a href="https://github.com/username">GitHub</a>'
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Exclude from processing
 exclude:
   - Gemfile
   - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - vendor/
