@@ -16,7 +16,8 @@ header_pages:
 style: dark
 
 # Footer text
-footer: 'Follow me on <a href="https://github.com/username">GitHub</a>'
+footer_right: 'Follow me on <a href="https://github.com/smnkrgr">GitHub</a>'
+footer_left: '<a href="/privacy-policy/">Privacy Policy</a>'
 
 # Build settings
 markdown: kramdown
