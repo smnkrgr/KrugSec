@@ -2,7 +2,7 @@ title: Test Blog
 description: Your blog description
 
 baseurl: ""
-url: "https://username.github.io"
+url: "https://krugsec.blog"
 
 # Theme settings
 theme: jekyll-theme-console
