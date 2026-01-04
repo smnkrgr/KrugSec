@@ -39,4 +39,11 @@
   text-decoration: none;
 }
 
+.footer-left a:hover,
+.footer-right a:hover {
+  color: var(--background-color) !important;
+  background-color: var(--base-color) !important;
+  text-shadow: none !important;
+}
+
 
