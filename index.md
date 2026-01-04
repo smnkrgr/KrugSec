@@ -5,4 +5,4 @@ permalink: /
 ---
 # Welcome to KrugSec
 
-Cybersecurity and not so cybersecurity related topics.
+Cybersecurity and sometimes not so cybersecurity related topics.

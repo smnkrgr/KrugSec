@@ -17,9 +17,15 @@
 
 .ascii-logo-link:hover {
   cursor: pointer;
-    text-shadow: 0 0 20px #F0A0A0;
+  text-shadow: 0 0 20px #F0A0A0;
+  background-color: transparent !important;
+  color: #F0A0A0 !important;
 }
 
+.ascii-logo-link:hover .ascii-logo {
+  color: #F0A0A0 !important;
+  background-color: transparent !important;
+}
 
 .footer-inner {
   display: flex;
