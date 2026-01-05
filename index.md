@@ -3,6 +3,6 @@ title: Home
 layout: home
 permalink: /
 ---
-# Welcome to KrugSec
+<h1 class="post-title">Welcome to KrugSec</h1>
 
-Cybersecurity and sometimes not so cybersecurity related topics.
+#### Cybersecurity and sometimes not so cybersecurity related topics.
